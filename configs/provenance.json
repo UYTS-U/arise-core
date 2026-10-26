@@ -1,0 +1,26 @@
+{
+  "origin": "Author-supplied aligned core implementation",
+  "release": "0.1.0",
+  "derivation": [
+    "ARISE public naming and formatting",
+    "Removal of baselines, virtual-history and server infrastructure",
+    "Anonymous metadata and source-only input validation"
+  ],
+  "source_snapshot_sha256": "87c0a252e4a7c3ea50e5600318fe7ce6e4b1ae9735790003a8f8d2b69445d2e7",
+  "source_file_sha256": {
+    "src/arise/__init__.py": "6a424d3e92a6f95a36d6eb0e4b7ba9d9990d78f06188befe9f38aeb0dcad9a7d",
+    "src/arise/cache.py": "86fafe2abd290f2e2e067a7d33519c499543adc88ec326c0f06143f517eac3ec",
+    "src/arise/config.py": "81c731cf08a70acc9c52a1cdc6b266f20b0cecb2214c0ddc0cff4454c9cb8936",
+    "src/arise/cwm.py": "edac6b95b27a62581b60af2938eef173eec8f2eb75d66ecf05738332035ece5f",
+    "src/arise/data.py": "22d5dedf293e873a80b29ff04cbda13f8c126230116680956150c7fd28362ef8",
+    "src/arise/memory.py": "965b128b1616bb8ba78482b270ae0a243e33ee7d3f842aee424bf36db1dce47c",
+    "src/arise/metrics.py": "08e22c25e1b8afe3c641bd851460094c6c0b0072b682e5d41c1f934ce2e9cbd7",
+    "src/arise/models/__init__.py": "c4c31e70a6f1dcf796dc4296d9aad4ab99dfbeeb0e5c639ef011fbe0df028b08",
+    "src/arise/models/main.py": "061ae0088b1755274d9050d46cffc91ab9ae659d128c2e5f93099c21f109f969",
+    "src/arise/runner.py": "0f9e6b9e67d1189b402f6de87d29c1faba50a333ae702d7ac4d92776a22114fe",
+    "src/arise/tags.py": "91f20c6834f16a8e1b68914634c3240cb26b379c6b4cc4c24ba6dba83c09eb8b",
+    "src/arise/training.py": "0e20649cf328953ccba81fb6094bced3d1d41432da0514f1c22e360e9536ee65",
+    "src/arise/util.py": "9f69baa32bf859f7b7ae389be9c67b48c2be03a7cf98a5d816976347ea9ae2d1"
+  },
+  "verification_scope": "Packaging, source-expression comparison, and synthetic protocol checks; no training reexecution"
+}

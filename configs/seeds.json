@@ -1,0 +1,10 @@
+{
+  "seeds": [
+    48509147,
+    868610493,
+    1514168990
+  ],
+  "data_seed": 2040,
+  "selection": "Three training seeds randomly drawn before this aligned experimental suite, then fixed and shared across all neural main and ablation runs.",
+  "same_main_and_ablation_seeds": true
+}

@@ -1,0 +1,45 @@
+{
+  "config": {
+    "seed": 2040,
+    "dim": 64,
+    "layers": 2,
+    "heads": 4,
+    "max_history": 100,
+    "dropout": 0.1,
+    "pi0": 0.3,
+    "gamma": 0.35,
+    "feedback_calibration": false,
+    "tau": 0.5,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "user_batch": 64,
+    "group_chunk": 128,
+    "d0_epochs": 100,
+    "incremental_epochs": 20,
+    "minimum_epochs": 3,
+    "patience": 2,
+    "stability": 10.0,
+    "gate_stability": 10.0,
+    "rank": 8
+  },
+  "lambda_grid": [
+    0,
+    0.1,
+    0.25,
+    0.5
+  ],
+  "window_grid": [
+    10,
+    20,
+    50
+  ],
+  "tag_policy": "ordered rank exponential; unordered uniform; per-type independently normalized; no feedback calibration",
+  "conditions": [
+    "clean"
+  ],
+  "validation_conditions": [
+    "clean",
+    "replaced60",
+    "deleted60"
+  ]
+}

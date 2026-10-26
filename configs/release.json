@@ -1,0 +1,11 @@
+{
+  "name": "arise-core",
+  "version": "0.1.0",
+  "scope": "ARISE main method and ML-1M component removals",
+  "main_datasets": ["ml1m", "ml10m", "zhihu", "bluesky_a", "yelp"],
+  "component_removal_datasets": ["ml1m"],
+  "service_conditions": ["clean"],
+  "data_included": false,
+  "results_included": false,
+  "training_reexecuted_for_release": false
+}

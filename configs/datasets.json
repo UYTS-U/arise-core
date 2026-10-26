@@ -1,0 +1,64 @@
+{
+  "zhihu": {
+    "path": "data/zhihu",
+    "tag_order": [
+      true
+    ],
+    "tag_sizes": [
+      106
+    ],
+    "revisit": false,
+    "visibility": "start",
+    "text": "data/zhihu/text.npy"
+  },
+  "bluesky_a": {
+    "path": "data/bluesky_a",
+    "tag_order": [
+      false
+    ],
+    "tag_sizes": [
+      11
+    ],
+    "revisit": false,
+    "visibility": "end",
+    "text": "data/bluesky_a/text.npy"
+  },
+  "ml1m": {
+    "path": "data/ml1m",
+    "tag_order": [
+      true
+    ],
+    "tag_sizes": [
+      18
+    ],
+    "revisit": false,
+    "visibility": "stage",
+    "text": "data/ml1m/text.npy"
+  },
+  "ml10m": {
+    "path": "data/ml10m",
+    "tag_order": [
+      true
+    ],
+    "tag_sizes": [
+      19
+    ],
+    "revisit": false,
+    "visibility": "stage",
+    "text": "data/ml10m/text.npy"
+  },
+  "yelp": {
+    "path": "data/yelp",
+    "tag_order": [
+      true,
+      true
+    ],
+    "tag_sizes": [
+      1311,
+      1283
+    ],
+    "revisit": true,
+    "visibility": "stage",
+    "text": "data/yelp/text.npy"
+  }
+}

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying anonymous manuscript when referencing this method or code. Citation does not grant a reuse license."
+type: software
+title: "ARISE: Adaptive Recommendation from Interests and Shared Evidence"
+version: 0.1.0
+authors:
+  - name: "Anonymous authors"
+preferred-citation:
+  type: unpublished
+  title: "From Initial Interests to Behavioral Evidence: Replay-Free Progressive Recommendation under Continual User Arrival"
+  authors:
+    - name: "Anonymous authors"
